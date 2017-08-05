@@ -1,7 +1,6 @@
 #Uzap Design - A design for shiru <3
 
- This is a Repository in starting a Project with Bootstrap
- It runs with NodeJs NPM , Gulp Compiler, Sass / Scss for styling, and a few customed Bootstrap style.
+
 
 ## Todo's
  Cleanup code - Apply animation
@@ -39,6 +38,3 @@ You can contact ert@enricort.me
 ##Credits
 Fireshell and Mintsflow
 
-
-##License
-The MIT License (MIT)
