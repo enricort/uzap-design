@@ -34,21 +34,6 @@ $(document).ready(function () {
   //Animations
   new WOW().init();
 
-  //Dribble shots
-  $.jribbble.setToken('bb2767d662736526165860acaf88f281ae69eee35ecb93f8e96109f41ea7bf71');
-  $.jribbble.users('BalkanBrothers').shots({ per_page: 8 }).then(function (shots) {
-    var no = 1;
-    shots.forEach(function (shot) {
-      if ($(".dribble .s" + no).hasClass("big")) {
-        $(".dribble .s" + no).css("background-image", "url('" + shot.images.hidpi + "')");
-      } else {
-        $(".dribble .s" + no).css("background-image", "url('" + shot.images.normal + "')");
-      }
-      $(".dribble .s" + no).addClass("active").attr("href", shot.html_url);
-      $(".dribble .s" + no + " span").text(shot.title);
-      no++;
-    });
-  });
 
   
 });
